@@ -1,6 +1,9 @@
 
 #header {
-    min-height: 70px;
+   width: 100%;
+   height: 12vh;
+   display: flex;
+   justify-content: center;
    background-color: black;
    background-size: cover;
 }
@@ -13,10 +16,10 @@
 }
 
 h1 {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: start; font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: start; font-size: 5vmax;
     position: absolute;
-    left: 100px;
-    top: -20px;
+    float: left;
+    top: -8vh;
     color: white;
 }
 
@@ -50,9 +53,9 @@ li a:hover {
 }
 #About_me {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: start;
-    width: 300px;
+    width: 23vmax;
     position: absolute;
-    font-size: 25px;
+    font-size: 2vmax;
     margin: auto;
     margin-left: 10%;
     margin-top: 10%;
@@ -60,9 +63,9 @@ li a:hover {
 
 h2 {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: start;
-    width: 200px;
+    width: 20vmax;
     position: absolute;
-    font-size: 50px;
+    font-size: 4vmax;
     margin: auto;
     margin-left: 10%;
     margin-top: 3%;
