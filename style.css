@@ -41,10 +41,10 @@ li {
 }
 
 li a {
-    display: flex;
-    color: white;
-    text-align: center;
-  padding: 18px 20px;
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 2vh 4vw;
   text-decoration: none;
   border-right: 1px solid white;
   border-radius: 5px;
@@ -61,9 +61,9 @@ li a:hover {
 #About_me {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     text-align: start;
-    width: 23vmax;
+    width: 20vmax;
     position: absolute;
-    font-size: 2vmax;
+    font-size: 2.2vmax;
     margin: auto;
     margin-left: 10vw;
     margin-top: 25vh;
@@ -73,19 +73,19 @@ li a:hover {
 h2 {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     text-align: start;
-    width: 20vmax;
     position: absolute;
-    font-size: 4vmax;
+    font-size: 8vh;
     margin: auto;
+    white-space: nowrap;
     margin-left: 10vw;
     margin-top: 13vh;
-}
+}   
 #profile{
     border-radius: 5px;
     height: auto;
-    width: 50%;
+    width: 40%;
     position: absolute; 
-    right: 10px;
+    right: 10%;
     margin-top: 20vh;
 
 } 
